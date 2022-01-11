@@ -1,0 +1,45 @@
+body {
+  background-color: grey;
+}
+
+label {
+  display: block;
+  padding: 5px;
+}
+
+label input, label select {
+  margin: 0 10px;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+ }
+
+ .nav-container {
+   padding: 10px;
+ }
+
+ .nav-container a {
+   padding: 5px;
+   margin: 10px;
+ }
+
+ .employment-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid grey;
+ }
+
+ .add-employment-cta {
+  max-width: 220px;
+  margin: 20px 0;
+ }
+
+ .employment-input-wrapper {
+  display: flex;
+  margin: 5px 0;
+ }
